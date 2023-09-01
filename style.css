@@ -73,6 +73,38 @@ body {
     padding: 6rem 10% 0;
 }
 
+.project {
+    margin: 1rem auto;
+    width: 80%;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .30), 0 11px 8px rgba(0, 0, 0, .22);
+    margin-bottom: 20px;
+    background: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(50px);
+    border-radius: 13px;
+    overflow: hidden;
+}
+
+.project-img {
+    width: 100%;
+    height: auto;
+}
+
+.project-title {
+    color: #fff;
+    padding: 13px;
+}
+
+.project-description {
+    color: #fff;
+    padding: 13px;
+}
+
+.footer {
+    margin: 1rem auto;
+    width: 80%;
+    text-align: center;
+}
+
 /*BREAK POINTS*/
 @media (max-width: 992px) {
     .header {
@@ -82,9 +114,15 @@ body {
     .main {
         padding: 6rem 5% 0;
     }
+    .footer {
+        width: 90%;
+    }
 }
 
 @media (max-width: 768px) {
+    .logo {
+        font-size: 1.3rem;
+    }
     .icons {
         display: inline-flex;
     }
@@ -110,7 +148,7 @@ body {
         transition: .3s ease;
     }
     #check:checked~.navbar {
-        height: 17.7rem;
+        height: 10.7rem;
     }
     .navbar > a {
         display: block;
