@@ -77,10 +77,10 @@ body {
     margin: 1rem auto;
     width: 80%;
     box-shadow: 0 15px 30px rgba(0, 0, 0, .30), 0 11px 8px rgba(0, 0, 0, .22);
-    margin-bottom: 20px;
+    margin-bottom: 1.5rem;
     background: rgba(0, 0, 0, .1);
     backdrop-filter: blur(50px);
-    border-radius: 13px;
+    border-radius: 1rem;
     overflow: hidden;
 }
 
@@ -91,12 +91,12 @@ body {
 
 .project-title {
     color: #fff;
-    padding: 13px;
+    padding: 1rem 1rem 0;
 }
 
 .project-description {
     color: #fff;
-    padding: 13px;
+    padding: 1rem;
 }
 
 .footer {
